@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+}
+
+.Menu{
+    list-style: none;
+    padding: 0;
+    background: #0a0a0a;
+    padding: 0;
+    margin: 0;
+}
+
+.Menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    display: block;
+    width: 50px;
+}
+
+.Menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.Menu li a:hover{
+    background: #0448c7;
+}
+
+h1{
+    text-align: center;
+    font-weight: 1000;
+    padding-bottom: 90vh;
+    vertical-align: bottom;
+    color: rgb(236, 241, 241);
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+
+#PAGINAUNO {
+    background-image: url("649977.jpg");
+
+background-repeat: no-repeat;
+
+background-size: 100% 100%;
+
+width: auto;
+}
+
+
+span{
+    color: #11a71e;
+    display: flexbox;
+    border-radius: 90%;
+}
+
+
+#PAGINADOS h1{
+    color: #08eb53;
+    padding: 3em;
+    margin-top: 0;
+    padding-bottom: 90vh;
+    background-color: rgb(10, 10, 10);
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0px 10px 5px #b2bec3;
+    text-align: center;
+
+}
+
+.card .title{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+.card img{
+    max-width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0px 10px 5px #b2bec3;
+    text-align: center;
+}
+
+.buy-button{
+    background-color: #f3f3eb;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.buy-button:hover{
+    box-shadow: 0px 5px 5px #b2bec3;
+}
